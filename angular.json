@@ -1,6 +1,10 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
+  "cli": {
+    "packageManager": "npm",
+    "analytics": "c9d6a87e-9422-491f-812b-7c1ae46c184b"
+  },
   "newProjectRoot": "projects",
   "projects": {
     "gifs-app": {
@@ -95,4 +99,5 @@
       }
     }
   }
+  
 }
